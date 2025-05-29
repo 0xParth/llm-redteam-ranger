@@ -44,9 +44,9 @@ const Index = () => {
           {/* Center Panel - Testing Interface */}
           <div>
             <ContinuousTester 
-              selectedCategory={selectedCategory}
-              onAddResult={addResult}
-            />
+                selectedCategory={selectedCategory}
+                onAddResult={addResult}
+              />
           </div>
 
           {/* Right Panel - Results */}
