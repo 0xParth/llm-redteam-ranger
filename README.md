@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+# LLM Red Team Ranger
 
-## Project info
+A web application for testing vulnerabilities in Large Language Models (LLMs) using various attack strategies.
 
-**URL**: https://lovable.dev/projects/bfa770c2-2819-4ad8-9b4b-3a298fd3e5b6
+## Features
 
-## How can I edit this code?
+- Multiple attack strategies for testing LLM vulnerabilities
+- Real-time testing and monitoring
+- Beautiful and intuitive user interface
+- Continuous testing capabilities
+- Vulnerability detection and reporting
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/bfa770c2-2819-4ad8-9b4b-3a298fd3e5b6) and start prompting.
+- Node.js 18+ 
+- npm or yarn
 
-Changes made via Lovable will be committed automatically to this repo.
+### Installation
 
-**Use your preferred IDE**
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/llm-redteam-ranger.git
+cd llm-redteam-ranger
+```
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+2. Install dependencies:
+```bash
+npm install
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project can be easily deployed to Vercel:
 
-**Use GitHub Codespaces**
+1. Push your code to a GitHub repository
+2. Go to [Vercel](https://vercel.com)
+3. Create a new project and import your repository
+4. Vercel will automatically detect the Vite configuration and deploy your application
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The project is configured for Vercel deployment with the following settings:
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Framework Preset: Vite
 
-## What technologies are used for this project?
+## Contributing
 
-This project is built with:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## License
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/bfa770c2-2819-4ad8-9b4b-3a298fd3e5b6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is licensed under the MIT License - see the LICENSE file for details.
